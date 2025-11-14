@@ -1,0 +1,2 @@
+class Piecehasbowingtechnique < ApplicationRecord
+end

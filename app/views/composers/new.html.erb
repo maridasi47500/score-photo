@@ -1,0 +1,11 @@
+<% content_for :title, "New composer" %>
+
+<h1>New composer</h1>
+
+<%= render "form", composer: @composer %>
+
+<br>
+
+<div>
+  <%= link_to "Back to composers", composers_path %>
+</div>

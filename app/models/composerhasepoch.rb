@@ -1,0 +1,2 @@
+class Composerhasepoch < ApplicationRecord
+end

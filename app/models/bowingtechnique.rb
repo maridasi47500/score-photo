@@ -1,0 +1,2 @@
+class Bowingtechnique < ApplicationRecord
+end

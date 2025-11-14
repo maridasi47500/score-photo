@@ -1,0 +1,16 @@
+<p style="color: green"><%= notice %></p>
+
+<% content_for :title, "Epoches" %>
+
+<h1>Epoches</h1>
+
+<div id="epoches">
+  <% @epoches.each do |epoch| %>
+    <%= render epoch %>
+    <p>
+      <%= link_to "Show this epoch", epoch %>
+    </p>
+  <% end %>
+</div>
+
+<%= link_to "New epoch", new_epoch_path %>

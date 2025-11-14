@@ -1,0 +1,16 @@
+<p style="color: green"><%= notice %></p>
+
+<% content_for :title, "Bowingtechniques" %>
+
+<h1>Bowingtechniques</h1>
+
+<div id="bowingtechniques">
+  <% @bowingtechniques.each do |bowingtechnique| %>
+    <%= render bowingtechnique %>
+    <p>
+      <%= link_to "Show this bowingtechnique", bowingtechnique %>
+    </p>
+  <% end %>
+</div>
+
+<%= link_to "New bowingtechnique", new_bowingtechnique_path %>

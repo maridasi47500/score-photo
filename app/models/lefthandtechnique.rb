@@ -1,0 +1,2 @@
+class Lefthandtechnique < ApplicationRecord
+end

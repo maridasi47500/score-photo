@@ -1,0 +1,2 @@
+class Piecehaslefthandtechnique < ApplicationRecord
+end

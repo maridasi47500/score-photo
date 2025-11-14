@@ -1,0 +1,10 @@
+<p style="color: green"><%= notice %></p>
+
+<%= render @bowingtechnique %>
+
+<div>
+  <%= link_to "Edit this bowingtechnique", edit_bowingtechnique_path(@bowingtechnique) %> |
+  <%= link_to "Back to bowingtechniques", bowingtechniques_path %>
+
+  <%= button_to "Destroy this bowingtechnique", @bowingtechnique, method: :delete %>
+</div>
