@@ -1,0 +1,2 @@
+class Markinghavescore < ApplicationRecord
+end

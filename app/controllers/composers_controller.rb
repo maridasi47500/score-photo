@@ -1,5 +1,5 @@
 class ComposersController < ApplicationController
-  before_action :set_composer, only: %i[ show edit update destroy ]
+  before_action :set_composer, only: %i[ show edit update destroy newscore ]
 
   # GET /composers or /composers.json
   def index

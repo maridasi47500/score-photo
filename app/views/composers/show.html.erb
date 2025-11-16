@@ -3,6 +3,7 @@
 <%= render @composer %>
 
 <div>
+  <%= link_to "add score to this composer", newscore_composer_path(@composer) %> |
   <%= link_to "Edit this composer", edit_composer_path(@composer) %> |
   <%= link_to "Back to composers", composers_path %>
 

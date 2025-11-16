@@ -1,0 +1,12 @@
+<% content_for :title, "New piece" %>
+
+<h1>New piece</h1>
+
+<%= render "pieces/form", piece: Piece.new(composer_id: @composer.id) %>
+
+<br>
+
+<div>
+  <%= link_to "Back to pieces", pieces_path %>
+</div>
+
